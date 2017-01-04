@@ -11,6 +11,7 @@
 		7469D7201E1C8C8F00A12A3B /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469D71F1E1C8C8F00A12A3B /* NSObject+Swizzling.m */; };
 		7469D72D1E1C993300A12A3B /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469D72C1E1C993300A12A3B /* NSArray+Swizzling.m */; };
 		7469D7301E1C9BE000A12A3B /* NSDictionary+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469D72F1E1C9BE000A12A3B /* NSDictionary+Swizzling.m */; };
+		7469D7331E1CC60800A12A3B /* NSNull+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469D7321E1CC60800A12A3B /* NSNull+Swizzling.m */; };
 		7482E7DC1E1501A0009FCB3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482E7DB1E1501A0009FCB3C /* main.m */; };
 		7482E7DF1E1501A0009FCB3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482E7DE1E1501A0009FCB3C /* AppDelegate.m */; };
 		7482E7E21E1501A0009FCB3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482E7E11E1501A0009FCB3C /* ViewController.m */; };
@@ -48,6 +49,8 @@
 		7469D72C1E1C993300A12A3B /* NSArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
 		7469D72E1E1C9BE000A12A3B /* NSDictionary+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Swizzling.h"; sourceTree = "<group>"; };
 		7469D72F1E1C9BE000A12A3B /* NSDictionary+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Swizzling.m"; sourceTree = "<group>"; };
+		7469D7311E1CC60800A12A3B /* NSNull+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Swizzling.h"; sourceTree = "<group>"; };
+		7469D7321E1CC60800A12A3B /* NSNull+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Swizzling.m"; sourceTree = "<group>"; };
 		7482E7D71E1501A0009FCB3C /* SwizzingMethodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzingMethodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7482E7DB1E1501A0009FCB3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7482E7DD1E1501A0009FCB3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				7469D72C1E1C993300A12A3B /* NSArray+Swizzling.m */,
 				7469D72E1E1C9BE000A12A3B /* NSDictionary+Swizzling.h */,
 				7469D72F1E1C9BE000A12A3B /* NSDictionary+Swizzling.m */,
+				7469D7311E1CC60800A12A3B /* NSNull+Swizzling.h */,
+				7469D7321E1CC60800A12A3B /* NSNull+Swizzling.m */,
 			);
 			path = SwizzingMethodDemo;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				7469D72D1E1C993300A12A3B /* NSArray+Swizzling.m in Sources */,
 				7482E80F1E150302009FCB3C /* ViewController+Extension.m in Sources */,
 				7469D7201E1C8C8F00A12A3B /* NSObject+Swizzling.m in Sources */,
+				7469D7331E1CC60800A12A3B /* NSNull+Swizzling.m in Sources */,
 				7469D7301E1C9BE000A12A3B /* NSDictionary+Swizzling.m in Sources */,
 				7482E7E21E1501A0009FCB3C /* ViewController.m in Sources */,
 				7482E7DF1E1501A0009FCB3C /* AppDelegate.m in Sources */,

@@ -23,11 +23,13 @@
     NSLog(@"%@",[arr objectAtIndex:1]);
     [arr removeObjectAtIndex:2];
     
-    NSArray *arr2 = @[@"9999"];
-    NSLog(@"%@",[arr2 objectAtIndex:1]);
+    NSArray *arr2 = @[@"9999",[NSNull null]];
+    NSLog(@"%.2f",[((NSString *)[arr2 objectAtIndex:1]) floatValue]);
     
     NSDictionary *dic1 = @{@"222":@""};
     NSLog(@"%@",[dic1 objectForKey:@"oooo"]);
+    NSSetUncaughtExceptionHandler(nil);
+//    [NSNull test];
 }
 
 - (void)didReceiveMemoryWarning {

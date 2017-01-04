@@ -18,10 +18,8 @@
         //判断系统
         if ([UIDevice currentDevice].systemVersion.floatValue > 9.0){
             [NSObject swizzlingClassString:@"__NSSingleObjectArrayI" methodSwizzlingWithOriginalSelector:@selector(objectAtIndex:) bySwizzledSelector:@selector(safeObjectAtIndex:)];
-            NSLog(@"__NSSingleObjectArrayI");
         }else{
             [NSObject swizzlingClassString:@"__NSArrayI" methodSwizzlingWithOriginalSelector:@selector(objectAtIndex:) bySwizzledSelector:@selector(safeObjectAtIndex:)];
-            NSLog(@"__NSArrayI");
         }
     });
 }
